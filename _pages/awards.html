@@ -1,0 +1,28 @@
+---
+layout: archive
+title: "Awards"
+permalink: /awards/
+author_profile: true
+---
+
+<ul class="awards-list">
+  {% for award in site.data.awards %}
+    <li class="award-item" style="margin-bottom: 20px; border-bottom: 1px solid #ddd; padding-bottom: 15px;">
+      <!-- Title -->
+      <h3 style="margin: 0;">{{ award.title }}</h3>
+
+      <!-- Event -->
+      <p><strong>Event:</strong> {{ award.event }}</p>
+
+      <!-- Year -->
+      <p><strong>Year:</strong> {{ award.year }}</p>
+
+      <!-- Image -->
+      {% if award.image %}
+        <div style="text-align: center; margin-top: 10px;">
+          <img src="{{ award.image }}" alt="{{ award.title }}" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 5px;">
+        </div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
