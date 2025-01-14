@@ -1,0 +1,24 @@
+---
+layout: archive
+title: "Presentations"
+permalink: /presentations/
+author_profile: true
+---
+
+<ul class="presentations-list">
+  {% for pres in site.data.presentations %}
+    <li class="presentation-item" style="margin-bottom: 20px;">
+      <h3>{{ pres.title }}</h3>
+      <p><strong>Author:</strong> {{ pres.author }}</p>
+      <p><strong>Event:</strong> {{ pres.event }}</p>
+      <p><strong>Date:</strong> {{ pres.date }}</p>
+      <p><strong>Location:</strong> {{ pres.location }}</p>
+      {% if pres.description %}
+        <p>{{ pres.description }}</p>
+      {% endif %}
+      {% if pres.link %}
+        <p><a href="{{ pres.link }}" target="_blank">Read More</a></p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
