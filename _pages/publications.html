@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
 <ul class="publications-list">
   {% for pub in site.data.publications %}
     <li class="publication-item">
@@ -6,9 +13,11 @@
       <p><strong>Date:</strong> {{ pub.date }}</p>
       <p><strong>Venue:</strong> {{ pub.venue }}</p>
       {% if pub.image %}
-        <img src="{{ pub.image }}" alt="{{ pub.title }}" style="max-width: 100%;">
+        <img src="{{ pub.image }}" alt="{{ pub.title }}" style="max-width: 100%; margin-top: 10px;">
       {% endif %}
-      <a href="{{ pub.link }}">Read More</a>
+      {% if pub.link %}
+        <p><a href="{{ pub.link }}">Read More</a></p>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
