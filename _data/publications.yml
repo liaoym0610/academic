@@ -1,9 +1,7 @@
-- title: "Paper Title Number 1"
-  date: "2009-10-01"
-  venue: "Organometallics"
+- title: "Ruthenium Complexes Bearing a Tetradentate Hemilabile Ligand: Synthesis, Structure, Hemilabile Feature, and Catalytic Application to C–H Borylation of Unactivated Arenes"
   authors: "Yumeng Liao, Kohei Takahashi, and Nobuharu Iwasawa"
-  image: "/assets/images/paper1.jpg"
-  link: "/publication/2009-10-01-paper-title-number-1"
+  description: "<i>Organometallics</i>, <strong>2025</strong>, <i>44</i>, 189–196"
+  link: "https://doi.org/10.1021/acs.organomet.9b00123"
 
 - title: "Paper Title Number 2"
   date: "2012-05-15"
