@@ -11,54 +11,36 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Chemistry, The University of Tokyo with Prof. Kyoko Nozaki, March, 2025 (expected)
+* M.Sc. in Chemistry, Tokyo Institute of Technology with Prof. Nobuharu Iwasawa, March 2022
+* B.Sc. in Chemistry, Tokyo University of Science with Prof. Takanori Matsuda, March 2020
 
-Work experience
+Professional Appointment
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Postdoctoral Research Associate, Princeton University with Prof. Jose Roque, since May 2025 (scheduled)
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Synthesos of organic and organometallic compounds
+* DFT calculation using Gaussian
+* Single crystal XRD analysis
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+<p>View my full list of publications <a href="https://liaoym0610.github.io/academic/publications/" target="_blank">here</a>.</p>
+
+Presentations
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+<p>View my full list of presentations <a href="https://liaoym0610.github.io/academic/presentations/" target="_blank">here</a>.</p>
+
+Service
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* American Chemical Society, member since 2022
+* Chemical Society of Japan, member since 2019
+
+Languages
 ======
-* Currently signed in to 43 different slack teams
+* Mandarin Chinese (Native proficiency)
+* English (Full professional proficiency)
+* Japanese (Full professional proficiency)
+* Taiwanese Hokkien (Full professional proficiency)
