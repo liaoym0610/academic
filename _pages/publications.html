@@ -8,14 +8,16 @@ author_profile: true
 <ul class="publications-list">
   {% for pub in site.data.publications %}
     <li class="publication-item">
-      {% if pub.image %}
-  <div style="text-align: center; margin-bottom: 15px;">
-    <img src="{{ pub.image }}" alt="{{ pub.title }}" style="max-width: 350px; height: auto;">
-  </div>
-{% endif %}
       <h3>{{ pub.title }}</h3>
       <p><strong>Authors:</strong> {{ pub.authors }}</p>
       <p>{{ pub.description | markdownify }}</p>
+      
+      {% if pub.image %}
+        <div style="text-align: center; margin-bottom: 15px;">
+          <img src="{{ pub.image }}" alt="{{ pub.title }}" style="max-width: 350px; height: auto;">
+        </div>
+      {% endif %}
+      
       {% if pub.link %}
         <p><a href="{{ pub.link }}">Read More</a></p>
       {% endif %}
