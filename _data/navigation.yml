@@ -9,16 +9,13 @@ main:
     url: /publications/
 
   - title: "Presentations"
-    url: /talks/    
+    url: /presentations/    
 
   - title: "Awards"
-    url: /teaching/    
+    url: /awards/    
     
   - title: "Siminar Files"
-    url: /portfolio/
-        
-  - title: "Blog"
-    url: /year-archive/
+    url: /similarfiles/
     
   - title: "CV"
     url: /cv/
