@@ -2,11 +2,10 @@
   authors: "Yumeng Liao, Kohei Takahashi, and Nobuharu Iwasawa"
   description: "<i>Organometallics</i>, <strong>2025</strong>, <i>44</i>, 189–196"
   link: "https://doi.org/10.1021/acs.organomet.9b00123"
-  image: "images/images_large_om4c00424_0011.jpeg"
+  image: "https://liaoym0610.github.io/academic/images/images_large_om4c00424_0011.jpeg"
 
 - title: "Paper Title Number 2"
   date: "2012-05-15"
   venue: "Journal of Catalysis"
   authors: "Yumeng Liao, Another Author"
-  image: "/assets/images/paper2.jpg"
   link: "/publication/2012-05-15-paper-title-number-2"
