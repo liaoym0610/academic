@@ -7,7 +7,26 @@ author_profile: true
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<style>
+  .map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  #world-map {
+    width: 100%;
+    height: auto;
+  }
+  .country {
+    fill: #cccccc;
+    stroke: #666;
+    stroke-width: 0.5;
+  }
+  .visited {
+    fill: #ff7800;
+  }
+</style>
 
 <div class="container mt-4">
   <h1>Presentations</h1>
@@ -87,7 +106,15 @@ author_profile: true
       </h2>
       <div id="collapseMap" class="accordion-collapse collapse" aria-labelledby="headingMap" data-bs-parent="#presentationAccordion">
         <div class="accordion-body">
-          <div id="regions_div" style="width: 100%; height: 500px;"></div>
+          <div class="map-container">
+            <svg id="world-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1000">
+              <!-- 示例國家路徑 -->
+              <path id="US" class="country" d="M100 200L150 250L200 200Z" />
+              <path id="JP" class="country" d="M900 300L950 350L1000 300Z" />
+              <path id="CN" class="country" d="M800 400L850 450L900 400Z" />
+              <path id="CA" class="country" d="M100 100L150 150L200 100Z" />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -95,27 +122,15 @@ author_profile: true
 </div>
 
 <script>
-  google.charts.load('current', {
-    packages: ['geochart'],
+  // 從 YAML 文件提取已訪問的國家
+  const presentations = {{ site.data.presentations | jsonify }};
+  const visitedCountries = [...new Set(presentations.map(p => p.country))];
+
+  // 高亮已訪問的國家
+  visitedCountries.forEach(countryCode => {
+    const countryElement = document.getElementById(countryCode);
+    if (countryElement) {
+      countryElement.classList.add("visited");
+    }
   });
-  google.charts.setOnLoadCallback(drawRegionsMap);
-
-  function drawRegionsMap() {
-    // 獲取 YAML 文件中的國家數據
-    const presentations = {{ site.data.presentations | jsonify }};
-    const visitedCountries = [...new Set(presentations.map(p => p.country))];
-
-    // 轉換為 Google GeoChart 支持的數據格式
-    const data = google.visualization.arrayToDataTable([
-      ['Country', 'Visited'],
-      ...visitedCountries.map(country => [country, 1])
-    ]);
-
-    const options = {
-      colorAxis: { colors: ['#e0e0e0', '#ff7800'] }, // 未訪問和訪問的顏色
-    };
-
-    const chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-    chart.draw(data, options);
-  }
 </script>
