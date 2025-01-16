@@ -9,12 +9,45 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <style>
+      :root {
+        --background-color: white;
+        --text-color: black;
+      }
+
+      [data-theme="dark"] {
+        --background-color: black;
+        --text-color: white;
+      }
+
+      body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      #theme-toggle {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 999;
+      }
+
+      #theme-toggle button {
+        padding: 10px;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        border: 1px solid var(--text-color);
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
   </head>
 
   <body>
-
-    <div id="theme-toggle" style="position: fixed; top: 10px; right: 10px; z-index: 999;">
-      <button onclick="toggleTheme()">🌞/🌜</button>
+    <!-- 主题切换按钮 -->
+    <div id="theme-toggle">
+      <button id="toggle-btn">🌞/🌜</button>
     </div>
 
     {% include browser-upgrade.html %}
@@ -32,19 +65,24 @@ layout: compress
     {% include scripts.html %}
 
     <script>
-      const initTheme = () => {
-        const theme = localStorage.getItem('theme') || 'light';
-        document.documentElement.setAttribute('data-theme', theme);
-      };
+      document.addEventListener("DOMContentLoaded", () => {
+        const toggleButton = document.getElementById("toggle-btn");
 
-      const toggleTheme = () => {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-      };
+        const initTheme = () => {
+          const theme = localStorage.getItem("theme") || "light";
+          document.documentElement.setAttribute("data-theme", theme);
+        };
 
-      initTheme();
+        const toggleTheme = () => {
+          const currentTheme = document.documentElement.getAttribute("data-theme");
+          const newTheme = currentTheme === "dark" ? "light" : "dark";
+          document.documentElement.setAttribute("data-theme", newTheme);
+          localStorage.setItem("theme", newTheme);
+        };
+
+        toggleButton.addEventListener("click", toggleTheme);
+        initTheme();
+      });
     </script>
   </body>
 </html>
