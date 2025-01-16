@@ -28,9 +28,6 @@
 
     nav {
       z-index: 10;
-      display: flex; /* 确保按钮与导航菜单在一行 */
-      align-items: center;
-      justify-content: space-between; /* 保证左右布局 */
     }
 
     a {
@@ -40,13 +37,12 @@
 }
 
 .masthead__menu {
+
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
-    display: flex; /* 确保菜单项横向排列 */
-    align-items: center;
   }
 }
 
@@ -59,19 +55,4 @@
     padding-right: 2em;
     font-weight: 700;
   }
-}
-
-/* 主题切换按钮的样式 */
-#theme-toggle {
-  margin-left: auto; /* 确保按钮与导航菜单对齐 */
-  padding-left: 10px; /* 与菜单保持一定间距 */
-}
-
-#theme-toggle button {
-  padding: 5px 10px;
-  background-color: transparent;
-  border: 1px solid currentColor;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
 }
