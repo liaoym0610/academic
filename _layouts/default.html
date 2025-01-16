@@ -13,6 +13,10 @@ layout: compress
 
   <body>
 
+    <div id="theme-toggle" style="position: fixed; top: 10px; right: 10px; z-index: 999;">
+      <button onclick="toggleTheme()">🌞/🌜</button>
+    </div>
+
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
@@ -27,5 +31,20 @@ layout: compress
 
     {% include scripts.html %}
 
+    <script>
+      const initTheme = () => {
+        const theme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+      };
+
+      const toggleTheme = () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+      };
+
+      initTheme();
+    </script>
   </body>
 </html>
