@@ -32,7 +32,7 @@ Research Interests
 
 Skills
 -----
-* Synthesos of organic and organometallic compounds
+* Synthesis of organic and organometallic compounds
 * DFT calculation using Gaussian
 * Single crystal XRD analysis
 
