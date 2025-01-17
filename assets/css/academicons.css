@@ -527,8 +527,8 @@
 }
 
 .ai-border {
-border: solid 0.08em #eee;
-border-radius: .1em;
+  border: solid 0.08em #eee;
+  border-radius: .1em;
   padding: .2em .25em .15em;
 }
 
@@ -569,3 +569,16 @@ border-radius: .1em;
 .ai-inverse {
   color: #fff;
 }
+
+/* 全局超链接样式：移除下划线并加粗 */
+a {
+  text-decoration: none; /* 移除下划线 */
+  color: inherit; /* 使用父元素的颜色 */
+  font-weight: normal; /* 默认字体粗细 */
+}
+
+a:hover,
+a:focus {
+  text-decoration: none; /* 保持无下划线 */
+  color: inherit; /* 保持颜色不变 */
+  font
