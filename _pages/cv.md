@@ -38,11 +38,11 @@ Skills
 
 Publications
 -----
-<p>View my full list of publications <a href="https://liaoym0610.github.io/academic/publications/" target="_blank">here</a>.</p>
+<p>View my full list of publications <a href="https://liaoym0610.github.io/academic/publications/">here</a>.</p>
 
 Presentations
 -----
-<p>View my full list of presentations <a href="https://liaoym0610.github.io/academic/presentations/" target="_blank">here</a>.</p>
+<p>View my full list of presentations <a href="https://liaoym0610.github.io/academic/presentations/">here</a>.</p>
 
 Service
 -----
@@ -55,3 +55,4 @@ Languages
 * English (Full professional proficiency)
 * Japanese (Full professional proficiency)
 * Taiwanese Hokkien (Full professional proficiency)
+* Korean (Beginner)
