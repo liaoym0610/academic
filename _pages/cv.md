@@ -24,7 +24,7 @@ Education
 
 Professional Appointment
 -----
-* Postdoctoral Research Associate, Princeton University with <a href="https://roque.princeton.edu" target="_blank">Prof. Jose Roque</a>, since May 2025 (scheduled)
+* Postdoctoral Research Associate, Princeton University with <a href="https://roque.princeton.edu" target="_blank">Prof. Jose Roque</a>, since May 2025
   
 Research Interests
 -----
