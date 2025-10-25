@@ -54,5 +54,5 @@ Languages
 * Mandarin Chinese (Native proficiency)
 * English (Full professional proficiency)
 * Japanese (Full professional proficiency)
-* Taiwanese Hokkien (Full professional proficiency)
+* Taiwanese Hokkien (Native proficiency)
 * Korean (Beginner)
