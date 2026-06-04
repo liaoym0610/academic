@@ -15,5 +15,24 @@ I obtained my Ph.D. from the University of Tokyo under the supervision of <a hre
 
 Before joining the Nozaki group, I conducted my undergraduate research with <a href="https://www.rs.tus.ac.jp/mtd/" target="_blank">Prof. Takanori Matsuda</a> at Toyko University of Science, and my master research with <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/anie.201006869" target="_blank">Prof. Nobuharu Iwasawa</a> at Tokyo Institute of Technology, where I was working on rhodium and ruthenium catalysis for C–H activation.<br><br>
 
+## News
+
+<div class="news-box">
+  <div class="news-item">
+    <span class="news-date">May 2025</span>
+    <span class="news-text">I started my postdoctoral research in the Roque group at Princeton University.</span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">March 2025</span>
+    <span class="news-text">I received my Ph.D. in Chemistry from The University of Tokyo.</span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">January 2024</span>
+    <span class="news-text">Our work on nickel-catalysed C(sp<sup>3</sup>)–O hydrogenolysis was published in <em>Journal of the American Chemical Society</em>.</span>
+  </div>
+</div>
+
 **雜談日記<a href="https://hatechem-lym.hatenablog.com" target="_blank">中文博客</a>**
 
