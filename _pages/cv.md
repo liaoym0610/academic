@@ -31,9 +31,28 @@ Research Interests
 
 Skills
 -----
-* Synthesis of organic and organometallic compounds
-* DFT calculation using Gaussian
-* Single crystal XRD analysis
+
+<ul style="line-height: 1.45;">
+  <li style="margin-bottom: 0.4em;">
+    <strong>Organic Synthesis:</strong><br>
+    Synthetic route design, multi-step synthesis, purification, and structural characterisation of organic molecules.
+  </li>
+
+  <li style="margin-bottom: 0.4em;">
+    <strong>Organometallic Chemistry:</strong><br>
+    Synthesis of organic and organometallic compounds using Schlenk techniques and glovebox. Isolation and characterisation of reactive compounds and reaction intermediates.
+  </li>
+
+  <li style="margin-bottom: 0.4em;">
+    <strong>DFT Calculations:</strong><br>
+    Geometry optimisation, transition state exploration, TD-DFT calculations for UV-vis simulation, frontier molecular orbital theory study (HOMO, LUMO, etc.), and excitation energy study.
+  </li>
+
+  <li>
+    <strong>Single Crystal XRD Analysis:</strong><br>
+    Single crystal growth, data collection, and structure determination.
+  </li>
+</ul>
 
 Publications
 -----
