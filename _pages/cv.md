@@ -11,9 +11,9 @@ redirect_from:
 
 Basic
 -----
-* Date of Birth: June 10th 1997
+* Date of Birth: 10th June 1997
 * Hometown: Leshan, Sichuan, P.R.China
-* Hobby: Video game, Visiting museums, Flying, Reading books (politics&history)
+* Hobby: Travelling, Flying, Reading, Politics, History
 
 Education
 -----
@@ -42,6 +42,10 @@ Publications
 Presentations
 -----
 <p>View my full list of presentations <a href="https://liaoym0610.github.io/academic/presentations/">here</a>.</p>
+
+Patent
+-----
+* U.S. Provisional Patent Application 63/578669: Efficient Hydrogenolysis of Thermosetting Resins Using Nickel Catalyst (Filed: August 23th, 2023)
 
 Service
 -----
