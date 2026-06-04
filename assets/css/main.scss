@@ -39,3 +39,43 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.news-box {
+  border-left: 4px solid #2f4f6f;
+  padding: 0.8em 1.1em;
+  margin: 1.5em 0 2em 0;
+  background: #f8f9fa;
+}
+
+.news-item {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 0.7em;
+  line-height: 1.5;
+}
+
+.news-item:last-child {
+  margin-bottom: 0;
+}
+
+.news-date {
+  min-width: 95px;
+  font-weight: 600;
+  color: #2f4f6f;
+  white-space: nowrap;
+}
+
+.news-text {
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .news-item {
+    display: block;
+  }
+
+  .news-date {
+    display: block;
+    margin-bottom: 0.15em;
+  }
+}
