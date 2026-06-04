@@ -79,3 +79,15 @@
     margin-bottom: 0.15em;
   }
 }
+
+.page__content a {
+  color: #2f4f6f;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+}
+
+.page__content a:hover {
+  color: #1f344a;
+  border-bottom: 1px solid #1f344a;
+}
