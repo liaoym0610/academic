@@ -19,26 +19,14 @@ Before joining the Nozaki group, I conducted my undergraduate research with <a h
 
 <div style="border-left: 4px solid #2f4f6f; background: #f8f9fa; padding: 16px 20px; margin: 18px 0 30px 0;">
 
-  <div style="margin-bottom: 18px; line-height: 1.6;">
-    <div style="font-weight: 700; color: #2f4f6f; margin-bottom: 2px;">May 2025</div>
-    <div style="margin-left: 20px;">
-      I started my postdoctoral research in the Roque group at Princeton University.
+  {% for item in site.data.news %}
+    <div style="{% unless forloop.last %}margin-bottom: 18px; {% endunless %}line-height: 1.6;">
+      <div style="font-weight: 700; color: #2f4f6f; margin-bottom: 2px;">{{ item.date }}</div>
+      <div style="margin-left: 20px;">
+        {{ item.text }}
+      </div>
     </div>
-  </div>
-
-  <div style="margin-bottom: 18px; line-height: 1.6;">
-    <div style="font-weight: 700; color: #2f4f6f; margin-bottom: 2px;">March 2025</div>
-    <div style="margin-left: 20px;">
-      I received my Ph.D. in Chemistry from The University of Tokyo.
-    </div>
-  </div>
-
-  <div style="line-height: 1.6;">
-    <div style="font-weight: 700; color: #2f4f6f; margin-bottom: 2px;">January 2024</div>
-    <div style="margin-left: 20px;">
-      Our work on nickel-catalysed C(sp<sup>3</sup>)–O hydrogenolysis was published in <em>Journal of the American Chemical Society</em>.
-    </div>
-  </div>
+  {% endfor %}
 
 </div>
 
