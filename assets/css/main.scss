@@ -88,17 +88,60 @@
 
 /* ==============================
    Custom Link Style
+   Homepage / CV / Publications / News
    ============================== */
 
-.page__content a {
+/* Normal links */
+.page__content a,
+.page__content a:visited,
+.archive a,
+.archive a:visited,
+.archive__item a,
+.archive__item a:visited,
+.archive__item-title a,
+.archive__item-title a:visited,
+.archive__item-excerpt a,
+.archive__item-excerpt a:visited,
+.news-box a,
+.news-box a:visited,
+.news-item a,
+.news-item a:visited {
   color: #2f4f6f !important;
   text-decoration: none !important;
   font-weight: 500;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid transparent !important;
 }
 
-.page__content a:hover {
+/* Hover / active links */
+.page__content a:hover,
+.page__content a:active,
+.archive a:hover,
+.archive a:active,
+.archive__item a:hover,
+.archive__item a:active,
+.archive__item-title a:hover,
+.archive__item-title a:active,
+.archive__item-excerpt a:hover,
+.archive__item-excerpt a:active,
+.news-box a:hover,
+.news-box a:active,
+.news-item a:hover,
+.news-item a:active {
   color: #1f344a !important;
   text-decoration: none !important;
-  border-bottom: 1px solid #1f344a;
+  font-weight: 500;
+  border-bottom: 1px solid #1f344a !important;
+}
+
+/* Prevent archive title underline on hover */
+.archive__item:hover .archive__item-title,
+.archive__item:hover .archive__item-title a {
+  text-decoration: none !important;
+}
+
+/* Keep image hover effect */
+.page__content a:hover img,
+.archive a:hover img,
+.archive__item a:hover img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
