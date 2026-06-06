@@ -399,3 +399,12 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Force no underline for CV/content links */
+.page__content a,
+.page__content a:visited,
+.page__content a:hover,
+.page__content a:active {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
