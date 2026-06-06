@@ -15,9 +15,15 @@
   }
 
   a {
+    color: $link-color;
     text-decoration: none;
 
+    &:visited {
+      color: $link-color;
+    }
+
     &:hover {
+      color: $link-color-hover;
       text-decoration: none;
 
       img {
