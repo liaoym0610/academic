@@ -5,22 +5,99 @@ permalink: /publications/
 author_profile: true
 ---
 
-<ul class="publications-list">
-  {% for pub in site.data.publications %}
-    <li class="publication-item">
-      <h3>{{ pub.title }}</h3>
-      <p><strong>Authors:</strong> {{ pub.authors }}</p>
-      <p>{{ pub.description | markdownify }}</p>
-      
-      {% if pub.image %}
-        <div style="text-align: center; margin: 10px 0 20px; padding: 0 8px;">
-          <img src="{{ pub.image }}" alt="{{ pub.title }}" style="width: 100%; max-width: 650px; height: auto;">
-        </div>
-      {% endif %}
-      
-      {% if pub.link %}
-        <p><a href="{{ pub.link }}">Read More</a></p>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+{% assign pubs = site.data.publications | sort: "year" | reverse %}
+{% assign pubs_by_year = pubs | group_by: "year" %}
+
+<style>
+.publications-year {
+  margin-bottom: 1.4em;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0.7em;
+}
+
+.publications-year summary {
+  cursor: pointer;
+  font-size: 1.35em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.8em;
+  list-style: none;
+}
+
+.publications-year summary::-webkit-details-marker {
+  display: none;
+}
+
+.publications-year summary::before {
+  content: "▸ ";
+  font-size: 0.9em;
+}
+
+.publications-year[open] summary::before {
+  content: "▾ ";
+}
+
+.publications-year summary:hover {
+  color: #2a7ae2;
+}
+
+.publications-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.publication-item {
+  margin-bottom: 2.2em;
+  padding-left: 1.2em;
+}
+
+.publication-item h3 {
+  margin-bottom: 0.35em;
+  font-size: 1.05em;
+}
+
+.publication-item p {
+  margin-bottom: 0.55em;
+}
+
+.publication-image {
+  text-align: center;
+  margin: 10px 0 20px;
+  padding: 0 8px;
+}
+
+.publication-image img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+}
+</style>
+
+{% for year in pubs_by_year %}
+<details class="publications-year" {% if forloop.first %}open{% endif %}>
+  <summary>{{ year.name }}</summary>
+
+  <ul class="publications-list">
+    {% for pub in year.items %}
+      <li class="publication-item">
+        <h3>{{ pub.title }}</h3>
+
+        <p><strong>Authors:</strong> {{ pub.authors }}</p>
+
+        <p>{{ pub.description }}</p>
+
+        {% if pub.image %}
+          <div class="publication-image">
+            <img src="{{ pub.image }}" alt="{{ pub.title }}">
+          </div>
+        {% endif %}
+
+        {% if pub.link %}
+          <p><a href="{{ pub.link }}" target="_blank">Read More</a></p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</details>
+{% endfor %}
