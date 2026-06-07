@@ -1,39 +1,46 @@
 - title: "C(sp<sup>3</sup>)–N Hydrogenolysis of <i>β</i>-Hydroxyamines Catalyzed by BisphenolatoNi(II) Complexes"
+  year: 2026
   authors: "Yumeng Liao,<sup>†</sup> Haobo Yuan,<sup>†</sup> (equal contribution) Kohei Takahashi,<sup>*</sup> and Kyoko Nozaki<sup>*</sup>"
   description: "<i>under revision</i>."
   image: "https://liaoym0610.github.io/academic/images/Angew TOC.png"
 
 - title: "“Store-and-Release” Strategy Enables Nickel-Catalyzed Deaminative Migratory Arylation of Aliphatic Amines"
+  year: 2026
   authors: "Abhishek Kadam,<sup>†</sup> Kevin Lee,<sup>†</sup> (equal contribution) Yumeng Liao, Aleksandr Knyazev, M. Joana Lourenço, Pinku Tung, Anthony N. Cauley, Jesús M. Dones, Martins S. Oderinde, James Kempson, and Jose B. Roque<sup>*</sup>"
   description: "<i>ChemRxiv</i> <strong>2026</strong>, 10.26434/chemrxiv.15003452/v1 (preprint)."
   link: "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15003452/v1"
   image: "https://liaoym0610.github.io/academic/images/Ni_migratory.jpg"
-  
+
 - title: "Reductive Cleavage of C-O and C-N Bonds by Homogeneous Transition-Metal Catalysis"
+  year: 2025
   authors: "Yumeng Liao, Kohei Takahashi,<sup>*</sup> and Kyoko Nozaki<sup>*</sup>"
   description: "<i>J. Synth. Org. Chem. Jpn.</i> <strong>2025</strong>, <i>83</i>, 1006–1013."
   link: "https://doi.org/10.5059/yukigoseikyokaishi.83.1006"
   image: "https://liaoym0610.github.io/academic/images/83_1006.jpg"
-  
+
 - title: "Degradation of Epoxy Resins in Water for Recovery of Small Organic Molecules: The Use of Platinum Catalyst under Hydrothermal Conditions"
+  year: 2025
   authors: "Kyoko Nozaki,<sup>*</sup> Yumeng Liao,<sup>†</sup> Satomi Hosokawa,<sup>†</sup> (equal contribution) Kohei Takahashi,<sup>*</sup> Shintaro Nakagawa, Naoko Yoshie, Yuki Yamasaki,<sup>*</sup>"
   description: "<i>Bull. Chem. Soc. Jpn.</i> <strong>2025</strong>, <i>98</i>, uoaf108."
   link: "https://doi.org/10.1093/bulcsj/uoaf108"
   image: "https://liaoym0610.github.io/academic/images/EP_hydrothermal_TOC.png"
 
 - title: "Ruthenium Complexes Bearing a Tetradentate Hemilabile Ligand: Synthesis, Structure, Hemilabile Feature, and Catalytic Application to C–H Borylation of Unactivated Arenes"
+  year: 2025
   authors: "Yumeng Liao, Kohei Takahashi, and Nobuharu Iwasawa<sup>*</sup>"
   description: "<i>Organometallics</i> <strong>2025</strong>, <i>44</i>, 189–196. <a href='https://pubs.acs.org/doi/10.1021/acs.oprd.5c00029' target='_blank'>Featured by OPR&D</a>"
   link: "https://doi.org/10.1021/acs.organomet.4c00424"
   image: "https://liaoym0610.github.io/academic/images/images_large_om4c00424_0011.jpeg"
 
 - title: "Nickel-Catalyzed C(sp<sup>3</sup>)−O Hydrogenolysis via a Remote-Concerted Oxidative Addition and its Application to Degradation of a Bisphenol A-Based Epoxy Resin"
+  year: 2024
   authors: "Yumeng Liao, Kohei Takahashi,<sup>*</sup> and Kyoko Nozaki<sup>*</sup>"
   description: "<i>J. Am. Chem. Soc.</i> <strong>2024</strong>, <i>146</i>, 2419–2425. <a href='https://pubs.acs.org/cms/10.1021/jacsat.2024.146.issue-4/asset/jacsat.2024.146.issue-4.xlargecover-2.jpg' target='_blank'>Supplementary Cover</a>, <a href='https://pubs.acs.org/doi/10.1021/acs.oprd.4c00036' target='_blank'>Featured by OPR&D</a>, <a href='https://cn.chem-station.com/化学杂记/recentpaper/热点研究/2023/12/「spotlight-research」镍催化远程协同氧化加成实现了csp3%E2%88%92.html' target='_blank'>Featured by Chem-Station 化学空间</a>"
   link: "https://doi.org/10.1021/jacs.3c09061"
   image: "https://liaoym0610.github.io/academic/images/images_large_ja3c09061_0011.jpeg"
 
 - title: "Rhodium-Catalyzed Additive-Free C−H Ethoxycarbonylation of (Hetero)Arenes with Diethyl Dicarbonate as a CO Surrogate"
+  year: 2021
   authors: "Hirotsugu Suzuki, Yumeng Liao, Yuya Kawai, and Takanori Matsuda<sup>*</sup>"
   description: "<i>Eur. J. Org. Chem.</i> <strong>2021</strong>, 4938–4942."
   link: "https://doi.org/10.1002/ejoc.202100956"
