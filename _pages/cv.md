@@ -18,7 +18,7 @@ Basic
 Education
 -----
 * Ph.D in Chemistry, The University of Tokyo with <a href="http://park.itc.u-tokyo.ac.jp/nozakilab/indexE.html" target="_blank">Prof. Kyoko Nozaki</a>, March, 2025
-* M.Sc. in Chemistry, Tokyo Institute of Technology with <a href="http://www.chemistry.titech.ac.jp/~iwasawa/index.html" target="_blank">Prof. Nobuharu Iwasawa</a>, March 2022
+* M.Sc. in Chemistry, Tokyo Institute of Technology with <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/anie.201006869" target="_blank">Prof. Nobuharu Iwasawa</a>, March 2022
 * B.Sc. in Chemistry, Tokyo University of Science with <a href="https://www.rs.tus.ac.jp/mtd/" target="_blank">Prof. Takanori Matsuda</a>, March 2020
 
 Professional Appointment
